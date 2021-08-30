@@ -76,6 +76,7 @@
                                 </state>
                                 <connections>
                                     <action selector="dividierenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vp8-xV-f4q"/>
+                                    <action selector="operatorenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1yO-aJ-BXZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ite-xc-oms">
@@ -163,6 +164,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="operatorenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="efc-qB-lgR"/>
                                     <action selector="plusminusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PMZ-SD-2Zk"/>
                                 </connections>
                             </button>
@@ -174,6 +176,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="operatorenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qn0-KD-R0Y"/>
                                     <action selector="prozentButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cyG-iY-t0l"/>
                                 </connections>
                             </button>
@@ -205,6 +208,7 @@
                                 </state>
                                 <connections>
                                     <action selector="minusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CWU-wl-ijP"/>
+                                    <action selector="operatorenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lo7-Xj-3Fa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OHO-cE-j0e">
@@ -215,6 +219,7 @@
                                     <color key="titleColor" systemColor="systemGray5Color"/>
                                 </state>
                                 <connections>
+                                    <action selector="operatorenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9pM-I2-LbO"/>
                                     <action selector="plusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tQO-ed-EJb"/>
                                 </connections>
                             </button>
@@ -226,7 +231,7 @@
                                     <color key="titleColor" systemColor="systemGray5Color"/>
                                 </state>
                                 <connections>
-                                    <action selector="gleichButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="76Y-kc-5d3"/>
+                                    <action selector="gleichZeichen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cnx-TB-0bZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTU-qj-zbf">
